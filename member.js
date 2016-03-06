@@ -49,7 +49,7 @@ function member_fun(arr) {
         for (i = 0; i < arr.length; i++) {
             out += "<div class='col-md-3 col-sm-3'>" + '<div class="team-member">' +
                    '<img src ="https://graph.facebook.com/' + arr[i].fb_id +
-            	   '/picture?width=300&height=300" width="150" height="150">' +
+            	   '/picture?width=300&height=300" class="img-responsive img-circle" width="150" height="150">' +
          		   '<h4>' + arr[i].name + '</h4>'+
             	   '<p class="text-muted">' + arr[i].title + '</p>' +
             	   '<ul class="list-inline social-buttons">' + '<li>' +
