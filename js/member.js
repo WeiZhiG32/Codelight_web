@@ -47,7 +47,7 @@ function member_fun(arr) {
         var out = "";
         var i;
         for (i = 0; i < arr.length; i++) {
-            out += "<div class='col-md-3 col-sm-3'>" + '<div class="team-member">' +
+            out += "<div class='col-md-3 col-sm-4 col-lg-3'>" + '<div class="team-member">' +
                    '<img src ="https://graph.facebook.com/' + arr[i].fb_id +
             	   '/picture?width=300&height=300" class="img-responsive img-circle" width="150" height="150">' +
          		   '<h4>' + arr[i].name + '</h4>'+
